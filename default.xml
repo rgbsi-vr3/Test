@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4" revision="pyro"/>
+
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://github.com/openembedded"  name="oe"/>
+  <remote fetch="https://github.com/Freescale"     name="freescale"/>
+  <remote fetch="https://github.com/meta-qt5"      name="QT5"/>
+  <remote fetch="https://github.com/OSSystems"     name="OSSystems"/>
+  <remote fetch="https://github.com/sbabic"        name="sbabic"/>
+  <remote fetch="https://github.com/varigit"       name="variscite"/>
+
+  <project remote="variscite" revision="9ff936e6dfd922cec719f90592f4f2cfba00db6c" upstream="pyro" name="meta-variscite-fslc" path="sources/meta-variscite-fslc"/>
+
+  <project remote="variscite" revision="pyro" name="variscite-bsp-base" path="sources/base">
+	<copyfile dest="README" src="README"/>
+	<copyfile dest="setup-environment" src="setup-environment"/>
+  </project>
+
+</manifest>
