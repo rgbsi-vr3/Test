@@ -7,5 +7,6 @@
   <remote fetch="https://github.com/vigneshrgbsi"  name="rits"/>
 
   <project remote="variscite" revision="9ff936e6dfd922cec719f90592f4f2cfba00db6c" upstream="pyro" name="meta-variscite-fslc" path="sources/meta-variscite-fslc"/>
+  <project remote="rits" revision="f54b34c564082d5611321bf152adc4c8d40aeb95" upstream="dev" name="PIS" path="sources/PIS"/>
 
 </manifest>
